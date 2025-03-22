@@ -45,7 +45,7 @@ def main():
                     with st.spinner("Обработка изображения..."):
                         logger.info("Отправка запроса на сервер")
                         response = requests.post(
-                            "https://180e-34-138-27-58.ngrok-free.app/upscale",
+                            "https://9a1d-89-39-107-194.ngrok-free.app/upscale",
                             files=files,
                             data={"scale_factor": 4}
                         )
